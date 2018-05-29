@@ -1,5 +1,5 @@
-# Secure-Message-Group
-This Java program simulates an online message-board that uses secure sockets for fully encrypted communication between the server and client program. The client program is used to connect to the server, which manages the actual message board program.
+# CS419 Programming Assignment - OpenSSL Message Board
+This Java program simulates an online message-board that uses OpenSSL for fully encrypted communication between the server and client program. The client program is used to connect to the server, which manages the actual message board program.
 
 # Program Security
 This project was intended to demonstrate the different foundations of computer security such as encrpytion, authorization, and identification. Users must provide a valid username and login combination in order to access the message board system. Username and password pairs are stored at rest by the server program, and the passowrds are stored as salted hashes. 
