@@ -1,4 +1,4 @@
-# CS419 Spring 2018 Programming Assignment - OpenSSL Message Board
+# CS419 Spring 2018 Computer Security - OpenSSL Message Board
 This Java program simulates an online message-board that uses OpenSSL for fully encrypted communication between the server and client program. The client program is used to connect to the server, which manages the actual message board program.
 
 # Program Security
