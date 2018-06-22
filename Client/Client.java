@@ -24,8 +24,8 @@ public class Client {
         //identifies trust.jks as client truststore file
         Security.addProvider(new Provider());
         System.setProperty("javax.net.ssl.trustStore","trust.jks"); 
-        System.setProperty("javax.net.ssl.trustStorePassword","AngryTurnip");
-        
+        System.setProperty("javax.net.ssl.trustStorePassword","XXXX");
+        //passwords removed for GitHub upload
         try{
             
             SSLSocketFactory sslsocketfactory = (SSLSocketFactory)SSLSocketFactory.getDefault();
