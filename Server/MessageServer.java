@@ -33,7 +33,8 @@ public class MessageServer{
 		//verify keystore file
 		Security.addProvider(new Provider());
         System.setProperty("javax.net.ssl.keyStore","identity.jks"); 
-        System.setProperty("javax.net.ssl.keyStorePassword","PotatoShip");
+        System.setProperty("javax.net.ssl.keyStorePassword","XXXXX");
+	//password removed for GitHub
 
         try {
         	SSLServerSocketFactory sslFactory = (SSLServerSocketFactory)SSLServerSocketFactory.getDefault();
